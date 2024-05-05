@@ -21,6 +21,8 @@
 
 # Compiled Static libraries
 *.exe
+*_noconflict.xml
+*.xml1
 *.bml1
 *.bmlnew
 *.bmlback
