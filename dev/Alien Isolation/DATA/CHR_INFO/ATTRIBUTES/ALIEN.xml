@@ -1,231 +1,239 @@
 <?xml version="1.0" encoding="us-ascii" standalone="yes"?>
 <Attribute>
-<Template_Name>DEFAULTS</Template_Name>
-<Locomotion>
-<Playable_Characters>
-<rotate_anim_aimed>1</rotate_anim_aimed>
-</Playable_Characters><permittedLocomotionModulation>0</permittedLocomotionModulation>
-<capsuleRadius>0.6</capsuleRadius>
-<SteeringControls>
-<steeringBoundaryData>
-<steeringBoundary linearVelocity="0.84" linearAcceleration="1" maxAngularVelocity="83" angularAcceleration="400" stoppingDistance="0.75" corneringWeight="0.2" corneringPenalty="0.2" maxAngularWarping="1.1" maxLinearWarping="1.1" />
-<steeringBoundary linearVelocity="2.21" linearAcceleration="2" maxAngularVelocity="133" angularAcceleration="400" stoppingDistance="1.25" corneringWeight="0.2" corneringPenalty="0.2" maxAngularWarping="1.1" maxLinearWarping="1.1" />
-<steeringBoundary linearVelocity="4.43" linearAcceleration="4" maxAngularVelocity="179" angularAcceleration="400" stoppingDistance="1.25" corneringWeight="0.4" corneringPenalty="0.5" maxAngularWarping="1.1" maxLinearWarping="1.1" />
-<steeringBoundary linearVelocity="8.05" linearAcceleration="5" maxAngularVelocity="220" angularAcceleration="400" stoppingDistance="2" corneringWeight="0.4" corneringPenalty="0.5" maxAngularWarping="1.3" maxLinearWarping="1" />
-</steeringBoundaryData><aimedSteeringBoundaryData>
-<steeringBoundary linearVelocity="0.5" linearAcceleration="4" maxAngularVelocity="120" angularAcceleration="400" stoppingDistance="0.3" corneringWeight="0.3" corneringPenalty="0.3" maxAngularWarping="1.6" maxLinearWarping="1.1" />
-<steeringBoundary linearVelocity="0.8" linearAcceleration="4" maxAngularVelocity="120" angularAcceleration="400" stoppingDistance="0.3" corneringWeight="0.3" corneringPenalty="0.3" maxAngularWarping="1.6" maxLinearWarping="1.1" />
-<steeringBoundary linearVelocity="2.5" linearAcceleration="4" maxAngularVelocity="300" angularAcceleration="400" stoppingDistance="0.3" corneringWeight="0.3" corneringPenalty="0.3" maxAngularWarping="1.6" maxLinearWarping="1.1" />
-<steeringBoundary linearVelocity="3" linearAcceleration="4" maxAngularVelocity="300" angularAcceleration="400" stoppingDistance="0.3" corneringWeight="0.3" corneringPenalty="0.3" maxAngularWarping="1.6" maxLinearWarping="1" />
-</aimedSteeringBoundaryData><crouchedSteeringBoundaryData>
-<steeringBoundary linearVelocity="0.8" linearAcceleration="2" maxAngularVelocity="250" angularAcceleration="400" stoppingDistance="1.5" corneringWeight="0.1" corneringPenalty="0.1" maxAngularWarping="1.5" maxLinearWarping="1.5" />
-<steeringBoundary linearVelocity="1.5" linearAcceleration="2" maxAngularVelocity="250" angularAcceleration="400" stoppingDistance="1.5" corneringWeight="0.1" corneringPenalty="0.1" maxAngularWarping="1.5" maxLinearWarping="1.5" />
-<steeringBoundary linearVelocity="2" linearAcceleration="2" maxAngularVelocity="250" angularAcceleration="400" stoppingDistance="1.5" corneringWeight="0.1" corneringPenalty="0.1" maxAngularWarping="1.5" maxLinearWarping="1.5" />
-<steeringBoundary linearVelocity="3.3" linearAcceleration="3" maxAngularVelocity="250" angularAcceleration="400" stoppingDistance="1.5" corneringWeight="0.1" corneringPenalty="0.1" maxAngularWarping="1.5" maxLinearWarping="1.5" />
-</crouchedSteeringBoundaryData></SteeringControls></Locomotion><Attack>
-<Melee_Damage>
-<Damage_From_Hit>525</Damage_From_Hit>
-</Melee_Damage><NPC_Shooting>
-<Rate_of_Fire>
-<min_time_between_shots>1</min_time_between_shots>
-<max_time_between_shots>1.5</max_time_between_shots>
-</Rate_of_Fire><Cover>
-<percentage_chance_of_shooting_over_cover_vs_side>0.5</percentage_chance_of_shooting_over_cover_vs_side>
-<Min_Non_Shooting_In_Cover_Interval_Time>5</Min_Non_Shooting_In_Cover_Interval_Time>
-<Max_Non_Shooting_In_Cover_Interval_Time>10</Max_Non_Shooting_In_Cover_Interval_Time>
-</Cover><Aiming>
-<Max_Aiming_Accuracy_Normalised_Value>1</Max_Aiming_Accuracy_Normalised_Value>
-<Aiming_Accuracy_Radius_Multiplier>1</Aiming_Accuracy_Radius_Multiplier>
-<Start_Shooting_Accuracy_Threshold>0.5</Start_Shooting_Accuracy_Threshold>
-<Stop_Shooting_Accuracy_Threshold>0.1</Stop_Shooting_Accuracy_Threshold>
-<Min_Aiming_Accuracy_Normalised_Value>0</Min_Aiming_Accuracy_Normalised_Value>
-</Aiming><Interval>
-<Min_Shooting_Interval_Time>3</Min_Shooting_Interval_Time>
-<Max_Shooting_Interval_Time>5</Max_Shooting_Interval_Time>
-<Max_Non_Shooting_Interval_Time>5</Max_Non_Shooting_Interval_Time>
-<Min_Non_Shooting_Interval_Time>3</Min_Non_Shooting_Interval_Time>
-</Interval></NPC_Shooting><min_delay_before_shooting>3</min_delay_before_shooting>
-<max_delay_before_shooting>5</max_delay_before_shooting>
-</Attack><Health>
-<Max_Health>3000</Max_Health>
-<Injured_State_1>60</Injured_State_1>
-<Injured_State_2>30</Injured_State_2>
-<Injured_State_3>10</Injured_State_3>
-<Health_Regeneration_Rate>2</Health_Regeneration_Rate>
-<Down_But_Not_Out>
-<Down_But_Not_Out_Enabled>False</Down_But_Not_Out_Enabled>
-<Down_But_Not_Out_Chance>0</Down_But_Not_Out_Chance>
-<Down_But_Not_Out_Health_Percentage>0</Down_But_Not_Out_Health_Percentage>
-</Down_But_Not_Out><Knocked_out>
-<knocked_out_time>100</knocked_out_time>
-</Knocked_out></Health><Defence>
-<defense_gauge_decay_rate>1000</defense_gauge_decay_rate>
-<defense_gauge_decay_delay>0</defense_gauge_decay_delay>
-</Defence><Character_Flags>
-<Can_Jump>True</Can_Jump>
-<Is_Male>True</Is_Male>
-<Character_Type_Differentiation>
-<Is_Player_Character>False</Is_Player_Character>
-<is_player_1>False</is_player_1>
-<is_player_2>False</is_player_2>
-</Character_Type_Differentiation></Character_Flags><Senses>
-<Sensing_Set_1_Normal>
-<description_set_1_normal>Set 1 Normal</description_set_1_normal>
-<viewcone_set_set_1_normal>VIEWCONESET_STANDARD</viewcone_set_set_1_normal>
-<Visual_Sense>
-<visual_activation_scalar_set_1_normal>0.7</visual_activation_scalar_set_1_normal>
-<visual_combined_sense_activation_scalar_set_1_normal>0.7</visual_combined_sense_activation_scalar_set_1_normal>
-</Visual_Sense><Weapon_Sound_Sense/>
-<Movement_Sound_Sense>
-<movement_sound_activation_scalar_set_1_normal>0.7</movement_sound_activation_scalar_set_1_normal>
-<movement_sound_combined_sense_activation_scalar_set_1_normal>0.55</movement_sound_combined_sense_activation_scalar_set_1_normal>
-</Movement_Sound_Sense><Damage_Caused_Sense/>
-<Touched_Sense/>
-<See_Flash_light_Sense>
-<see_flash_light_lower_threshold_set_1_normal>0.05</see_flash_light_lower_threshold_set_1_normal>
-<see_flash_light_trace_threshold_set_1_normal>0.02</see_flash_light_trace_threshold_set_1_normal>
-<see_flash_light_activation_threshold_set_1_normal>0.11</see_flash_light_activation_threshold_set_1_normal>
-<see_flash_light_upper_threshold_set_1_normal>0.365</see_flash_light_upper_threshold_set_1_normal>
-<see_flash_light_combined_sense_min_raw_activation_set_1_normal>1</see_flash_light_combined_sense_min_raw_activation_set_1_normal>
-<see_flash_light_min_raw_activation_set_1_normal>1</see_flash_light_min_raw_activation_set_1_normal>
-<see_flash_light_activation_scalar_set_1_normal>18</see_flash_light_activation_scalar_set_1_normal>
-<see_flash_light_combined_sense_activation_scalar_set_1_normal>18</see_flash_light_combined_sense_activation_scalar_set_1_normal>
-<see_flash_light_decay_per_second_set_1_normal>0.1</see_flash_light_decay_per_second_set_1_normal>
-</See_Flash_light_Sense><Affected_by_Flame_Thrower_Sense/>
-<Combined_Sense/>
-</Sensing_Set_1_Normal><Sensing_Set_1_Heightened>
-<description_set_1_heightened>Set 1 Heightened</description_set_1_heightened>
-<viewcone_set_set_1_heightened>VIEWCONESET_STANDARD</viewcone_set_set_1_heightened>
-<max_hearing_distance_set_1_heightened>50</max_hearing_distance_set_1_heightened>
-<max_damage_distance_scale_to_set_1_heightened>100</max_damage_distance_scale_to_set_1_heightened>
-<Visual_Sense>
-<visual_activation_scalar_set_1_heightened>1.05</visual_activation_scalar_set_1_heightened>
-<visual_combined_sense_activation_scalar_set_1_heightened>1.05</visual_combined_sense_activation_scalar_set_1_heightened>
-</Visual_Sense><Weapon_Sound_Sense/>
-<Movement_Sound_Sense>
-<movement_sound_activation_scalar_set_1_heightened>1.25</movement_sound_activation_scalar_set_1_heightened>
-<movement_sound_combined_sense_activation_scalar_set_1_heightened>1.06</movement_sound_combined_sense_activation_scalar_set_1_heightened>
-</Movement_Sound_Sense><Damage_Caused_Sense/>
-<Touched_Sense/>
-<See_Flash_light_Sense>
-<see_flash_light_lower_threshold_set_1_heightened>0.05</see_flash_light_lower_threshold_set_1_heightened>
-<see_flash_light_trace_threshold_set_1_heightened>0.02</see_flash_light_trace_threshold_set_1_heightened>
-<see_flash_light_activation_threshold_set_1_heightened>0.11</see_flash_light_activation_threshold_set_1_heightened>
-<see_flash_light_upper_threshold_set_1_heightened>0.365</see_flash_light_upper_threshold_set_1_heightened>
-<see_flash_light_min_raw_activation_set_1_heightened>1</see_flash_light_min_raw_activation_set_1_heightened>
-<see_flash_light_combined_sense_min_raw_activation_set_1_heightened>1</see_flash_light_combined_sense_min_raw_activation_set_1_heightened>
-<see_flash_light_activation_scalar_set_1_heightened>19</see_flash_light_activation_scalar_set_1_heightened>
-<see_flash_light_combined_sense_activation_scalar_set_1_heightened>19</see_flash_light_combined_sense_activation_scalar_set_1_heightened>
-<see_flash_light_decay_per_second_set_1_heightened>0.1</see_flash_light_decay_per_second_set_1_heightened>
-</See_Flash_light_Sense><Affected_by_Flame_Thrower_Sense/>
-<Combined_Sense/>
-</Sensing_Set_1_Heightened><Sensing_Set_2>
-<description_set_2>Suspect_Response</description_set_2>
-<viewcone_set_set_2>VIEWCONESET_STANDARD</viewcone_set_set_2>
-<max_hearing_distance_set_2>71</max_hearing_distance_set_2>
-<max_damage_distance_scale_to_set_2>100</max_damage_distance_scale_to_set_2>
-<Visual_Sense>
-<visual_activation_scalar_set_2>1</visual_activation_scalar_set_2>
-<visual_combined_sense_activation_scalar_set_2>1</visual_combined_sense_activation_scalar_set_2>
-</Visual_Sense><Weapon_Sound_Sense/>
-<Movement_Sound_Sense>
-<movement_sound_activation_scalar_set_2>0.75</movement_sound_activation_scalar_set_2>
-<movement_sound_combined_sense_activation_scalar_set_2>0.72</movement_sound_combined_sense_activation_scalar_set_2>
-</Movement_Sound_Sense><Damage_Caused_Sense/>
-<Touched_Sense/>
-<See_Flash_light_Sense>
-<see_flash_light_lower_threshold_set_2>0.04</see_flash_light_lower_threshold_set_2>
-<see_flash_light_trace_threshold_set_2>0.02</see_flash_light_trace_threshold_set_2>
-<see_flash_light_activation_threshold_set_2>0.09</see_flash_light_activation_threshold_set_2>
-<see_flash_light_upper_threshold_set_2>0.365</see_flash_light_upper_threshold_set_2>
-<see_flash_light_min_raw_activation_set_2>1</see_flash_light_min_raw_activation_set_2>
-<see_flash_light_combined_sense_min_raw_activation_set_2>1</see_flash_light_combined_sense_min_raw_activation_set_2>
-<see_flash_light_activation_scalar_set_2>18</see_flash_light_activation_scalar_set_2>
-<see_flash_light_combined_sense_activation_scalar_set_2>17</see_flash_light_combined_sense_activation_scalar_set_2>
-<see_flash_light_decay_per_second_set_2>0.09</see_flash_light_decay_per_second_set_2>
-<see_flash_light_min_activated_time_set_2>14</see_flash_light_min_activated_time_set_2>
-</See_Flash_light_Sense><Affected_by_Flame_Thrower_Sense/>
-<Combined_Sense/>
-</Sensing_Set_2><Sensing_Set_3>
-<description_set_3>Assault</description_set_3>
-<viewcone_set_set_3>VIEWCONESET_STANDARD</viewcone_set_set_3>
-<max_hearing_distance_set_3>50</max_hearing_distance_set_3>
-<max_damage_distance_scale_to_set_3>100</max_damage_distance_scale_to_set_3>
-<Visual_Sense>
-<visual_activation_scalar_set_3>6</visual_activation_scalar_set_3>
-<visual_combined_sense_activation_scalar_set_3>6</visual_combined_sense_activation_scalar_set_3>
-</Visual_Sense><Weapon_Sound_Sense>
-<weapon_sound_activation_scalar_set_3>4</weapon_sound_activation_scalar_set_3>
-<weapon_sound_combined_sense_activation_scalar_set_3>2</weapon_sound_combined_sense_activation_scalar_set_3>
-</Weapon_Sound_Sense><Movement_Sound_Sense>
-<movement_sound_activation_scalar_set_3>2.5</movement_sound_activation_scalar_set_3>
-<movement_sound_combined_sense_activation_scalar_set_3>1.8</movement_sound_combined_sense_activation_scalar_set_3>
-</Movement_Sound_Sense><Damage_Caused_Sense/>
-<Touched_Sense/>
-<See_Flash_light_Sense>
-<see_flash_light_lower_threshold_set_3>0.04</see_flash_light_lower_threshold_set_3>
-<see_flash_light_trace_threshold_set_3>0.02</see_flash_light_trace_threshold_set_3>
-<see_flash_light_activation_threshold_set_3>0.09</see_flash_light_activation_threshold_set_3>
-<see_flash_light_upper_threshold_set_3>0.365</see_flash_light_upper_threshold_set_3>
-<see_flash_light_min_raw_activation_set_3>1</see_flash_light_min_raw_activation_set_3>
-<see_flash_light_combined_sense_min_raw_activation_set_3>1</see_flash_light_combined_sense_min_raw_activation_set_3>
-<see_flash_light_activation_scalar_set_3>23</see_flash_light_activation_scalar_set_3>
-<see_flash_light_combined_sense_activation_scalar_set_3>23</see_flash_light_combined_sense_activation_scalar_set_3>
-<see_flash_light_decay_per_second_set_3>0.1</see_flash_light_decay_per_second_set_3>
-<see_flash_light_min_activated_time_set_3>15</see_flash_light_min_activated_time_set_3>
-</See_Flash_light_Sense><Affected_by_Flame_Thrower_Sense/>
-<Combined_Sense/>
-</Sensing_Set_3></Senses><Physical_Attributes>
-<Mass>160</Mass>
-<Default_Alliance_Group>AG_ALIEN</Default_Alliance_Group>
-</Physical_Attributes><Behavior>
-<Behavior_Tree>alien_behave</Behavior_Tree>
-<ATTACK_GROUP>AT_ALIEN</ATTACK_GROUP>
-<TargetingSystem>TM_ALIEN</TargetingSystem>
-</Behavior><Sound_Attributes>
-<Character_Sound>ALIEN</Character_Sound>
-</Sound_Attributes><Peeking>
-<max_vertical_peek>0.25</max_vertical_peek>
-<max_horizontal_peek>0.45</max_horizontal_peek>
-<max_peek_control_velocity>0.3</max_peek_control_velocity>
-<max_auto_return_from_peek_velocity>1.5</max_auto_return_from_peek_velocity>
-<vertical_peek_exposed_threshold>0.2</vertical_peek_exposed_threshold>
-<horizontal_peek_exposed_threshold>0.2</horizontal_peek_exposed_threshold>
-<grace_time_in_exposed_peek_region>1</grace_time_in_exposed_peek_region>
-<peek_control_scaling>7</peek_control_scaling>
-</Peeking><Spawning>
-<spawn_with_weapon>NO_WEAPON</spawn_with_weapon>
-</Spawning><Job_Behaviour name="Job_Behaviour">
-<max_range_to_search_for_IDLE_job>205</max_range_to_search_for_IDLE_job>
-<max_range_to_search_for_ESCALATION_jobs>10</max_range_to_search_for_ESCALATION_jobs>
-<min_time_between_idles_for_stalk>47</min_time_between_idles_for_stalk>
-</Job_Behaviour><Alien_Player_Temp>
-<Alien_Player_SLOW>3</Alien_Player_SLOW>
-<Alien_Player_MEDIUM>6</Alien_Player_MEDIUM>
-<Alien_Player_FAST>24</Alien_Player_FAST>
-</Alien_Player_Temp><ImpactEffects>
-<ImpactEffects_List>
-<ImpactEffect Bone="" Material="" Effect="ALIEN_IMPACT" />
-</ImpactEffects_List></ImpactEffects><Aggrovation_Settings>
-<aggro_rate>
-<aggro_interrogative_rate>0.38</aggro_interrogative_rate>
-<aggro_standdown_rate>-0.11</aggro_standdown_rate>
-</aggro_rate><aggro_distances>
-<aggro_aggressive_distance>10</aggro_aggressive_distance>
-<aggro_warning_distance>21</aggro_warning_distance>
-<aggro_interrogative_distance>29</aggro_interrogative_distance>
-<aggro_standdown_distance>30</aggro_standdown_distance>
-</aggro_distances></Aggrovation_Settings><Cover>
-<cover_job_minimum_distance_to_player>10</cover_job_minimum_distance_to_player>
-</Cover><Footsteps_sense_generation>
-<footstep_loudness_maxed_out_speed>3.5</footstep_loudness_maxed_out_speed>
-<footstep_loudness_min_speed_considered>0.18</footstep_loudness_min_speed_considered>
-<footstep_loudness_min_clamped_input_loudness>0</footstep_loudness_min_clamped_input_loudness>
-<footstep_loudness_min_scaled_output_loudness>0.02</footstep_loudness_min_scaled_output_loudness>
-<footstep_loudness_max_scaled_output_loudness>0.34</footstep_loudness_max_scaled_output_loudness>
-</Footsteps_sense_generation><Hiding>
-<chance_hiding_not_chosen>0.16</chance_hiding_not_chosen>
-<hiding_search_radius>8.49</hiding_search_radius>
-<hiding_post_search_exclusion_radius>11.53</hiding_post_search_exclusion_radius>
-<hiding_hearing_range>7.87</hiding_hearing_range>
-</Hiding></Attribute>
+  <Template_Name>DEFAULTS</Template_Name>
+  <Locomotion>
+    <Playable_Characters>
+      <rotate_anim_aimed>1</rotate_anim_aimed>
+    </Playable_Characters>
+    <permittedLocomotionModulation>0</permittedLocomotionModulation>
+    <capsuleRadius>0.6</capsuleRadius>
+    <SteeringControls>
+      <steeringBoundaryData>
+        <steeringBoundary linearVelocity="0.84" linearAcceleration="1" maxAngularVelocity="83" angularAcceleration="400" stoppingDistance="0.75" corneringWeight="0.2" corneringPenalty="0.2" maxAngularWarping="1.1" maxLinearWarping="1.1" />
+        <steeringBoundary linearVelocity="2.2" linearAcceleration="2" maxAngularVelocity="130" angularAcceleration="400" stoppingDistance="1.25" corneringWeight="0.2" corneringPenalty="0.2" maxAngularWarping="1.1" maxLinearWarping="1.1" />
+        <steeringBoundary linearVelocity="3.8" linearAcceleration="4" maxAngularVelocity="170" angularAcceleration="400" stoppingDistance="1.25" corneringWeight="0.4" corneringPenalty="0.5" maxAngularWarping="1.1" maxLinearWarping="1.1" />
+        <steeringBoundary linearVelocity="8.2" linearAcceleration="5" maxAngularVelocity="220" angularAcceleration="400" stoppingDistance="2" corneringWeight="0.4" corneringPenalty="0.5" maxAngularWarping="1.3" maxLinearWarping="1" />
+      </steeringBoundaryData>
+      <aimedSteeringBoundaryData>
+        <steeringBoundary linearVelocity="0.5" linearAcceleration="4" maxAngularVelocity="120" angularAcceleration="400" stoppingDistance="0.3" corneringWeight="0.3" corneringPenalty="0.3" maxAngularWarping="1.6" maxLinearWarping="1.1" />
+        <steeringBoundary linearVelocity="0.8" linearAcceleration="4" maxAngularVelocity="120" angularAcceleration="400" stoppingDistance="0.3" corneringWeight="0.3" corneringPenalty="0.3" maxAngularWarping="1.6" maxLinearWarping="1.1" />
+        <steeringBoundary linearVelocity="2.5" linearAcceleration="4" maxAngularVelocity="300" angularAcceleration="400" stoppingDistance="0.3" corneringWeight="0.3" corneringPenalty="0.3" maxAngularWarping="1.6" maxLinearWarping="1.1" />
+        <steeringBoundary linearVelocity="3" linearAcceleration="4" maxAngularVelocity="300" angularAcceleration="400" stoppingDistance="0.3" corneringWeight="0.3" corneringPenalty="0.3" maxAngularWarping="1.6" maxLinearWarping="1" />
+      </aimedSteeringBoundaryData>
+      <crouchedSteeringBoundaryData>
+        <steeringBoundary linearVelocity="0.5" linearAcceleration="2" maxAngularVelocity="240" angularAcceleration="400" stoppingDistance="1.5" corneringWeight="0.1" corneringPenalty="0.1" maxAngularWarping="1.5" maxLinearWarping="1.5" />
+        <steeringBoundary linearVelocity="1" linearAcceleration="2" maxAngularVelocity="240" angularAcceleration="400" stoppingDistance="1.5" corneringWeight="0.1" corneringPenalty="0.1" maxAngularWarping="1.5" maxLinearWarping="1.5" />
+        <steeringBoundary linearVelocity="2" linearAcceleration="2" maxAngularVelocity="240" angularAcceleration="400" stoppingDistance="1.5" corneringWeight="0.1" corneringPenalty="0.1" maxAngularWarping="1.5" maxLinearWarping="1.5" />
+        <steeringBoundary linearVelocity="2.8" linearAcceleration="2" maxAngularVelocity="240" angularAcceleration="400" stoppingDistance="1.5" corneringWeight="0.1" corneringPenalty="0.1" maxAngularWarping="1.5" maxLinearWarping="1.5" />
+      </crouchedSteeringBoundaryData>
+    </SteeringControls>
+  </Locomotion>
+  <Attack>
+    <Melee_Damage>
+      <Damage_From_Hit>50</Damage_From_Hit>
+    </Melee_Damage>
+    <NPC_Shooting>
+      <Rate_of_Fire>
+        <min_time_between_shots>1</min_time_between_shots>
+        <max_time_between_shots>1.5</max_time_between_shots>
+      </Rate_of_Fire>
+      <Cover>
+        <percentage_chance_of_shooting_over_cover_vs_side>0.5</percentage_chance_of_shooting_over_cover_vs_side>
+        <Min_Non_Shooting_In_Cover_Interval_Time>5</Min_Non_Shooting_In_Cover_Interval_Time>
+        <Max_Non_Shooting_In_Cover_Interval_Time>10</Max_Non_Shooting_In_Cover_Interval_Time>
+      </Cover>
+      <Aiming>
+        <Max_Aiming_Accuracy_Normalised_Value>1</Max_Aiming_Accuracy_Normalised_Value>
+        <Aiming_Accuracy_Radius_Multiplier>1</Aiming_Accuracy_Radius_Multiplier>
+        <Start_Shooting_Accuracy_Threshold>0.5</Start_Shooting_Accuracy_Threshold>
+        <Stop_Shooting_Accuracy_Threshold>0.1</Stop_Shooting_Accuracy_Threshold>
+        <Min_Aiming_Accuracy_Normalised_Value>0</Min_Aiming_Accuracy_Normalised_Value>
+      </Aiming>
+      <Interval>
+        <Min_Shooting_Interval_Time>3</Min_Shooting_Interval_Time>
+        <Max_Shooting_Interval_Time>5</Max_Shooting_Interval_Time>
+        <Max_Non_Shooting_Interval_Time>5</Max_Non_Shooting_Interval_Time>
+        <Min_Non_Shooting_Interval_Time>3</Min_Non_Shooting_Interval_Time>
+      </Interval>
+    </NPC_Shooting>
+    <min_delay_before_shooting>1</min_delay_before_shooting>
+    <max_delay_before_shooting>2</max_delay_before_shooting>
+  </Attack>
+  <Health>
+    <Max_Health>16000</Max_Health>
+    <Injured_State_1>60</Injured_State_1>
+    <Injured_State_2>30</Injured_State_2>
+    <Injured_State_3>10</Injured_State_3>
+    <Health_Regeneration_Rate>1000</Health_Regeneration_Rate>
+    <Down_But_Not_Out>
+      <Down_But_Not_Out_Enabled>False</Down_But_Not_Out_Enabled>
+      <Down_But_Not_Out_Chance>0</Down_But_Not_Out_Chance>
+      <Down_But_Not_Out_Health_Percentage>0</Down_But_Not_Out_Health_Percentage>
+    </Down_But_Not_Out>
+    <Knocked_out>
+      <knocked_out_time>10</knocked_out_time>
+    </Knocked_out>
+  </Health>
+  <Defence>
+    <defense_gauge_decay_rate>10</defense_gauge_decay_rate>
+    <defense_gauge_decay_delay>0</defense_gauge_decay_delay>
+  </Defence>
+  <Character_Flags>
+    <Can_Jump>True</Can_Jump>
+    <Is_Male>True</Is_Male>
+    <Character_Type_Differentiation>
+      <Is_Player_Character>False</Is_Player_Character>
+      <is_player_1>False</is_player_1>
+      <is_player_2>False</is_player_2>
+    </Character_Type_Differentiation>
+  </Character_Flags>
+  <Senses>
+    <Sensing_Set_1_Normal>
+      <description_set_1_normal>Set 1 Normal</description_set_1_normal>
+      <viewcone_set_set_1_normal>VIEWCONESET_STANDARD</viewcone_set_set_1_normal>
+      <Visual_Sense>
+        <visual_activation_scalar_set_1_normal>0.7</visual_activation_scalar_set_1_normal>
+        <visual_combined_sense_activation_scalar_set_1_normal>0.7</visual_combined_sense_activation_scalar_set_1_normal>
+      </Visual_Sense>
+      <Weapon_Sound_Sense/>
+      <Movement_Sound_Sense>
+        <movement_sound_activation_scalar_set_1_normal>0.7</movement_sound_activation_scalar_set_1_normal>
+        <movement_sound_combined_sense_activation_scalar_set_1_normal>0.55</movement_sound_combined_sense_activation_scalar_set_1_normal>
+      </Movement_Sound_Sense>
+      <Damage_Caused_Sense/>
+      <Touched_Sense/>
+      <See_Flash_light_Sense/>
+      <Affected_by_Flame_Thrower_Sense/>
+      <Combined_Sense/>
+    </Sensing_Set_1_Normal>
+    <Sensing_Set_1_Heightened>
+      <description_set_1_heightened>Set 1 Heightened</description_set_1_heightened>
+      <viewcone_set_set_1_heightened>VIEWCONESET_STANDARD</viewcone_set_set_1_heightened>
+      <max_hearing_distance_set_1_heightened>50</max_hearing_distance_set_1_heightened>
+      <max_damage_distance_scale_to_set_1_heightened>100</max_damage_distance_scale_to_set_1_heightened>
+      <Visual_Sense>
+        <visual_activation_scalar_set_1_heightened>1.05</visual_activation_scalar_set_1_heightened>
+        <visual_combined_sense_activation_scalar_set_1_heightened>1.05</visual_combined_sense_activation_scalar_set_1_heightened>
+      </Visual_Sense>
+      <Weapon_Sound_Sense/>
+      <Movement_Sound_Sense>
+        <movement_sound_activation_scalar_set_1_heightened>1.25</movement_sound_activation_scalar_set_1_heightened>
+        <movement_sound_combined_sense_activation_scalar_set_1_heightened>1</movement_sound_combined_sense_activation_scalar_set_1_heightened>
+      </Movement_Sound_Sense>
+      <Damage_Caused_Sense/>
+      <Touched_Sense/>
+      <See_Flash_light_Sense/>
+      <Affected_by_Flame_Thrower_Sense/>
+      <Combined_Sense/>
+    </Sensing_Set_1_Heightened>
+    <Sensing_Set_2>
+      <description_set_2>Suspect_Response</description_set_2>
+      <viewcone_set_set_2>VIEWCONESET_STANDARD</viewcone_set_set_2>
+      <max_hearing_distance_set_2>50</max_hearing_distance_set_2>
+      <max_damage_distance_scale_to_set_2>100</max_damage_distance_scale_to_set_2>
+      <Visual_Sense>
+        <visual_activation_scalar_set_2>1</visual_activation_scalar_set_2>
+        <visual_combined_sense_activation_scalar_set_2>1</visual_combined_sense_activation_scalar_set_2>
+      </Visual_Sense>
+      <Weapon_Sound_Sense/>
+      <Movement_Sound_Sense>
+        <movement_sound_activation_scalar_set_2>0.3</movement_sound_activation_scalar_set_2>
+        <movement_sound_combined_sense_activation_scalar_set_2>0.2</movement_sound_combined_sense_activation_scalar_set_2>
+      </Movement_Sound_Sense>
+      <Damage_Caused_Sense/>
+      <Touched_Sense/>
+      <See_Flash_light_Sense>
+        <see_flash_light_activation_scalar_set_2>1</see_flash_light_activation_scalar_set_2>
+        <see_flash_light_combined_sense_activation_scalar_set_2>1</see_flash_light_combined_sense_activation_scalar_set_2>
+      </See_Flash_light_Sense>
+      <Affected_by_Flame_Thrower_Sense/>
+      <Combined_Sense/>
+    </Sensing_Set_2>
+    <Sensing_Set_3>
+      <description_set_3>Assault</description_set_3>
+      <viewcone_set_set_3>VIEWCONESET_STANDARD</viewcone_set_set_3>
+      <max_hearing_distance_set_3>50</max_hearing_distance_set_3>
+      <max_damage_distance_scale_to_set_3>100</max_damage_distance_scale_to_set_3>
+      <Visual_Sense>
+        <visual_activation_scalar_set_3>6</visual_activation_scalar_set_3>
+        <visual_combined_sense_activation_scalar_set_3>6</visual_combined_sense_activation_scalar_set_3>
+      </Visual_Sense>
+      <Weapon_Sound_Sense>
+        <weapon_sound_activation_scalar_set_3>4</weapon_sound_activation_scalar_set_3>
+        <weapon_sound_combined_sense_activation_scalar_set_3>2</weapon_sound_combined_sense_activation_scalar_set_3>
+      </Weapon_Sound_Sense>
+      <Movement_Sound_Sense>
+        <movement_sound_activation_scalar_set_3>2.5</movement_sound_activation_scalar_set_3>
+        <movement_sound_combined_sense_activation_scalar_set_3>1.7</movement_sound_combined_sense_activation_scalar_set_3>
+      </Movement_Sound_Sense>
+      <Damage_Caused_Sense/>
+      <Touched_Sense/>
+      <See_Flash_light_Sense>
+        <see_flash_light_activation_scalar_set_3>6</see_flash_light_activation_scalar_set_3>
+        <see_flash_light_combined_sense_activation_scalar_set_3>6</see_flash_light_combined_sense_activation_scalar_set_3>
+      </See_Flash_light_Sense>
+      <Affected_by_Flame_Thrower_Sense/>
+      <Combined_Sense/>
+    </Sensing_Set_3>
+  </Senses>
+  <Physical_Attributes>
+    <Mass>160</Mass>
+    <Default_Alliance_Group>AG_ALIEN</Default_Alliance_Group>
+  </Physical_Attributes>
+  <Behavior>
+    <Behavior_Tree>alien_behave</Behavior_Tree>
+    <ATTACK_GROUP>AT_ALIEN</ATTACK_GROUP>
+    <TargetingSystem>TM_ALIEN</TargetingSystem>
+  </Behavior>
+  <Sound_Attributes>
+    <Character_Sound>ALIEN</Character_Sound>
+  </Sound_Attributes>
+  <Peeking>
+    <max_vertical_peek>0.25</max_vertical_peek>
+    <max_horizontal_peek>0.45</max_horizontal_peek>
+    <max_peek_control_velocity>0.3</max_peek_control_velocity>
+    <max_auto_return_from_peek_velocity>1.5</max_auto_return_from_peek_velocity>
+    <vertical_peek_exposed_threshold>0.2</vertical_peek_exposed_threshold>
+    <horizontal_peek_exposed_threshold>0.2</horizontal_peek_exposed_threshold>
+    <grace_time_in_exposed_peek_region>1</grace_time_in_exposed_peek_region>
+    <peek_control_scaling>7</peek_control_scaling>
+  </Peeking>
+  <Spawning>
+    <spawn_with_weapon>NO_WEAPON</spawn_with_weapon>
+  </Spawning>
+  <Job_Behaviour name="Job_Behaviour">
+    <max_range_to_search_for_IDLE_job>200</max_range_to_search_for_IDLE_job>
+    <max_range_to_search_for_ESCALATION_jobs>10</max_range_to_search_for_ESCALATION_jobs>
+    <min_time_between_idles_for_stalk>60</min_time_between_idles_for_stalk>
+  </Job_Behaviour>
+  <Alien_Player_Temp>
+    <Alien_Player_SLOW>3</Alien_Player_SLOW>
+    <Alien_Player_MEDIUM>6</Alien_Player_MEDIUM>
+    <Alien_Player_FAST>24</Alien_Player_FAST>
+  </Alien_Player_Temp>
+  <ImpactEffects>
+    <ImpactEffects_List>
+      <ImpactEffect Bone="" Material="" Effect="ALIEN_IMPACT" />
+    </ImpactEffects_List>
+  </ImpactEffects>
+  <Aggrovation_Settings>
+    <aggro_distances>
+      <aggro_aggressive_distance>10</aggro_aggressive_distance>
+      <aggro_warning_distance>20</aggro_warning_distance>
+    </aggro_distances>
+  </Aggrovation_Settings>
+  <Cover>
+    <cover_job_minimum_distance_to_player>10</cover_job_minimum_distance_to_player>
+  </Cover>
+  <Footsteps_sense_generation>
+    <footstep_loudness_maxed_out_speed>4.5</footstep_loudness_maxed_out_speed>
+    <footstep_loudness_min_speed_considered>0.1</footstep_loudness_min_speed_considered>
+    <footstep_loudness_min_clamped_input_loudness>0</footstep_loudness_min_clamped_input_loudness>
+    <footstep_loudness_min_scaled_output_loudness>0.2</footstep_loudness_min_scaled_output_loudness>
+  </Footsteps_sense_generation>
+  <Hiding>
+    <hiding_search_radius>7</hiding_search_radius>
+    <hiding_post_search_exclusion_radius>10</hiding_post_search_exclusion_radius>
+    <hiding_hearing_range>6</hiding_hearing_range>
+  </Hiding>
+</Attribute>
