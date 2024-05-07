@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="us-ascii" standalone="yes"?>
+<Ammo>
+  <Template_Name/>
+  <Hand_Weapon_Data>
+    <Projectile>True</Projectile>
+    <Flamethrower>False</Flamethrower>
+    <damage_rays_per_shot>1</damage_rays_per_shot>
+    <damage_rays_blocked_by_characters>True</damage_rays_blocked_by_characters>
+    <use_fixed_accuracy>False</use_fixed_accuracy>
+    <fixed_accuracy>0</fixed_accuracy>
+    <npc_accuracy_multiplier>1</npc_accuracy_multiplier>
+    <min_accuracy_radius_at_10_metres>0.01</min_accuracy_radius_at_10_metres>
+    <max_accuracy_radius_at_10_metres>1.2</max_accuracy_radius_at_10_metres>
+    <aiming_reticule/>
+    <is_fuel>False</is_fuel>
+    <fuel_units_consumed_per_second_if_firing>0</fuel_units_consumed_per_second_if_firing>
+    <fuel_units_consumed_per_second_if_switched_on>0</fuel_units_consumed_per_second_if_switched_on>
+    <projectile_units_consumed_per_shot>1</projectile_units_consumed_per_shot>
+  </Hand_Weapon_Data>
+  <damage_ranges>
+    <min_distance>0</min_distance>
+    <range_damage_list>
+      <range_damage range="40" vs_NPC="1750" vsPlayer="100" vsAndroid="3400" vsAndroidHeavy="5200" vsFHugger="400" vsPhysics="110" headshot="2" Damage_1="Impact" Damage_2="None" Damage_3="None" Ragdoll="5" vsAlien="0" AlienStun="100" StunDuration="0" EMPDuration="0" BlindDuration="0" />
+    </range_damage_list>
+  </damage_ranges>
+  <Physics_response_at_impact_point>
+    <has_physics_response>True</has_physics_response>
+    <impulse_radius>0.1</impulse_radius>
+    <impulse_at_centre_of_blast>20</impulse_at_centre_of_blast>
+    <impulse_fall_off_power>0.998</impulse_fall_off_power>
+    <character_wavefront_speed>10</character_wavefront_speed>
+  </Physics_response_at_impact_point>
+</Ammo>
